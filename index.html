@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Food Label Analyzer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🍽️ Food Label Analyzer</h1>
+    <p>Upload a food label image and get nutrition insights instantly.</p>
+  </header>
+
+  <main>
+    <section class="upload-section">
+      <input type="file" id="fileInput" accept="image/*" />
+      <button onclick="analyzeImage()">Analyze</button>
+    </section>
+
+    <section class="result-section">
+      <h2>📊 OCR Result</h2>
+      <pre id="ocrResult">Upload an image to start...</pre>
+    </section>
+  </main>
+
+  <footer>
+    <p>Powered by Hugging Face OCR | Designed with ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
