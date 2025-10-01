@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #74ebd5, #acb6e5);
+  color: #333;
+  text-align: center;
+}
+
+header {
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.upload-section {
+  margin: 2rem;
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  background: #0077ff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005bcc;
+}
+
+.result-section {
+  margin: 2rem;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
